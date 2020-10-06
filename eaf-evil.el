@@ -57,7 +57,7 @@
 
   (add-to-list 'evil-insert-state-modes 'eaf-edit-mode)
 
-  (eaf-bind-key "clear_focus" "<escape>" eaf-browser-keybinding))
+  (eaf-bind-key 'clear_focus "<escape>" eaf-browser-keybinding))
 
 (with-eval-after-load "evil"
   (eaf-enable-evil-intergration))
